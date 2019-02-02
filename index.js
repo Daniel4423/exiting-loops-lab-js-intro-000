@@ -21,7 +21,7 @@ function findBy(array, findFn) {
   for (var i = 0; i <= array.length; i++) {
     if (array[i] !== findFn) {
       continue;
-    } else if (array[i] ==== findFn) {
+    } else if (array[i] === findFn) {
       return findFn
     } else if (i === array.length) {
       return null;
