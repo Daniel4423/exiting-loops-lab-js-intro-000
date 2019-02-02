@@ -16,3 +16,16 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array;
 }
+
+function findBy(array, findFn) {
+  for (var i = 0; i <= array.length; i++) {
+    if (array[i] !== findFn) {
+      continue;
+    } else if (array[i] ==== findFn) {
+      return findFn
+    }
+    if (i === array.length) {
+      return null;
+    }
+  }
+}
