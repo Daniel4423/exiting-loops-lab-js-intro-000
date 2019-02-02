@@ -23,8 +23,7 @@ function findBy(array, findFn) {
       continue;
     } else if (array[i] ==== findFn) {
       return findFn
-    }
-    if (i === array.length) {
+    } else if (i === array.length) {
       return null;
     }
   }
